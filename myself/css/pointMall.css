@@ -1,0 +1,121 @@
+@charset "UTF-8";
+.pointsMall{
+    width: 100%;
+}
+:root{
+    background-color:#efefef;
+}
+/*头部*/
+.pointsMall-header{
+    height: 1.72rem;
+    width: 100%;
+    background-color:#f9fafd;
+    font-size: .45rem;
+    line-height: 1.72rem;
+    position: fixed;
+    left:0;
+    top:0;
+}
+.pointsMall-header >div{
+    float: left;
+}
+.pointsMall-header >div:first-of-type{
+    width: 2.25rem;
+    height: 100% ;
+    margin-right: 2.1rem;
+    background: url(./../../image/zuoj.png) no-repeat .3rem center;
+    background-size:.9rem .9rem;
+}
+/*可用积分图*/
+.user-image{
+    margin-top: 1.72rem;
+    width: 100%;
+    height: 5.16rem;
+    background-color: white;
+    padding-top: .45rem;
+    border-top:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.user-image>div{
+    height:4.25rem;
+    width: 4.25rem;
+    border-radius: 50%;
+    margin:0 auto;
+    font-size: .5rem;
+    color:#c7c7c7;
+    padding-top:1.5rem;
+    background: radial-gradient(white 43%,#c7c7c7 43%,#c7c7c7 50%,#dddddd 50%);
+
+}
+.user-image>div >p{
+    text-align: center
+}
+.pointsMall-header >div a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+/*导航*/
+.pointsMall >nav{
+    width: 100%;
+    height: 2.375rem;
+    display: flex;
+    background-color: white;
+
+}
+.pointsMall >nav >div{
+    flex-grow: 1;
+    text-align: center;
+    font-size: .4rem;
+    color:#999;
+    padding-top: 1.5rem;
+}
+.pointsMall >nav >div:first-child{
+    background:url(./../../image/jifen-bg1.png) no-repeat center .4rem;
+    background-size:.9rem .9rem;
+}
+.pointsMall >nav >div:nth-child(3){
+    background:url(./../../image/jifen-bg3.png) no-repeat center .4rem;
+    background-size:.9rem .9rem;
+}
+.pointsMall >nav >div:nth-child(2){
+    background:url(./../../image/jifen-bg2.png) no-repeat center .4rem;
+    background-size:.9rem .9rem;
+    border-left:1px solid #e0e0e0;
+    border-right:1px solid #e0e0e0;
+}
+/*积分劵*/
+.posintsMall-card{
+    margin-top: .3rem;
+    display: flex;flex-wrap: wrap;
+    background-color: white;
+}
+.posintsMall-card>div{
+    font-size: .3rem;
+    padding-left: .4rem;
+    height: 4.69rem;
+    width: 50%;
+    padding-top: 3rem;
+    border-right:1px solid #e0e0e0;
+    border-bottom: 1px solid #e0e0e0;
+}
+.posintsMall-card>div p:last-child{
+    margin-top: .3rem;
+    color:red;
+}
+.posintsMall-card>div:first-child{
+    background: url(./../../image/yuan1.jpg) no-repeat center .3rem;
+    background-size: 5rem 2.5rem;
+}
+.posintsMall-card>div:nth-child(2){
+    background: url(./../../image/yuan2.jpg) no-repeat center .3rem;
+    background-size: 5rem 2.5rem;
+}
+.posintsMall-card>div:nth-child(3){
+    background: url(./../../image/yuan3.jpg) no-repeat center .3rem;
+    background-size: 5rem 2.5rem;
+}
+.posintsMall-card>div:last-child{
+    background: url(./../../image/yuan4.jpg) no-repeat center .3rem;
+    background-size: 5rem 2.5rem;
+}

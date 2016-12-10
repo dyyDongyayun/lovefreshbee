@@ -1,0 +1,76 @@
+@charset "UTF-8";
+.myOrder{
+    width: 100%;
+}
+:root{
+    background-color: #efefef;
+}
+/*头部*/
+.myOrder-header{
+    width: 100%;
+    height: 1.72rem;
+    background-color: #f9fafd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .45rem;
+    font-weight: bold;
+    padding: 0 .2rem;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 200;
+}
+.myOrder-header >div:first-of-type{
+    height: 100%;
+    width: 2.25rem;
+    background: url(./../../image/zuoj.png) no-repeat left center;
+    background-size: 1rem .95rem;
+}
+.myOrder-header >div:last-of-type{
+    height: 100%;
+    width: 2.25rem;
+    background: url(./../../image/shuaxin.png) no-repeat right center;
+    background-size: 1rem .95rem;
+}
+.myOrder-header >div >a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+/*导航*/
+.myOrder-nav{
+    margin-top: 1.72rem;
+    width: 100%;
+    height: 1.56rem;
+    background-color:white;
+    font-size: .3rem;
+    color:black;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    padding: 0 .3rem;
+}
+.myOrder-nav>span{
+    line-height: 1.56rem;
+    flex-grow: 1;
+    height: 100%;
+    text-align: center;
+}
+.myOrder-nav>span:first-child{
+    color:#ff3800;
+    border-bottom: 1px solid #ff3800;
+}
+.myOrder-main{
+    height: 6.5rem;
+    width: 100%;
+    font-size: .35rem;
+    padding-top: 5rem;
+    color:#999;
+    background:url(./../../image/my-order.png) no-repeat  center;
+    background-size: 3rem 3rem;
+}
+.myOrder-main>p{
+    text-align: center;
+}

@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*头部*/
+.myself-header{
+    width: 100%;
+    height: 3.75rem;
+    background: #ffd600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.myself-header-img1{
+    height: 2.3rem;
+    width: 2.3rem;
+    margin-left:.5rem;
+}
+.myself-header >div p:first-child{
+    width: 5.1rem;
+    font-size: .5rem;
+    color:white;
+    font-weight: bold;
+}
+.myself-header >div p:last-child{
+    height: 1.1rem;
+    background: url(./../../image/bee.png) no-repeat;
+    background-size:3rem 1rem;
+    font-size: .4rem;
+    line-height: 1rem;
+    color:#e64f1a;
+    font-weight: bold;
+    padding-left: 1rem;
+    margin-top: .3rem;
+}
+.myself-header-img2{
+    height: .68rem;
+    margin-right: 1rem;
+}
+/*导航*/
+.myselt-nav{
+    height: 1.31rem;
+    display: flex;
+    align-items: center;
+    background: #f3c800;
+    color:white;
+    font-size:.4rem;
+}
+.myselt-nav >div{
+    height:.8rem;
+    flex-grow: 1;
+    text-align: center;
+    line-height: .8rem;
+    margin-left: 1rem;
+}
+.myselt-nav >div:first-child{
+    border-right: 2px solid white;
+    background: url(./../../image/bao.png) no-repeat;
+    background-size: .7rem .7rem;
+}
+.myselt-nav >div:last-child{
+    background: url(./../../image/bao2.png) no-repeat;
+    background-size: .7rem .7rem;
+}
+.myselt-nav >div img{
+    height: .7rem;
+}
+.myselt-nav >div >span{
+    display: inline-block;
+    height: .7rem;
+}
+.myself-main{
+    width: 100%;
+    background-color: #efefef;
+    padding-top:.375rem;
+    padding-bottom: 2.5rem;
+}
+/*myself-main1*/
+.myself-main1{
+    width: 100%;
+    margin-bottom:.375rem;
+    background-color: white;
+}
+.myself-main1 >p{
+    height: 1.72rem;
+    font-size: .5rem;
+    line-height: 1.72rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding:0 .5rem;
+}
+.myself-main1 >p a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.myself-main1 >p span:last-child{
+    float: right;
+    color:#999;
+}
+.myself-main1 >ul{
+    display: flex;
+    font-size:.4rem;
+    align-items: center;
+    height: 2.4rem;
+}
+.myself-main1 >ul li{
+    flex-grow: 1;
+    text-align: center;
+}
+.myself-main1 >ul li img{
+    width: .7rem;
+}
+.myself-main1 >ul li >p{
+    margin-top: .2rem;
+}
+/*myselt-mian2*/
+.myselt-mian2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.myselt-mian2 >div{
+    width: 25%;
+    height: 3.75rem;
+    font-size: .4rem;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+.myselt-mian2 >div a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.myselt-mian2 >div img{
+    margin-top: 1.2rem;
+    width: 1.2rem;
+}
+.myself-p{
+    margin-top:1.2rem;
+    background-color: white;
+    height: 2rem;
+    line-height: 2rem;
+    font-size: .6rem;
+    text-align: center;
+}

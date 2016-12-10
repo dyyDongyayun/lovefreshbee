@@ -1,0 +1,250 @@
+@charset "UTF-8";
+.crazyKill{
+    width: 100%;
+    /*position: relative;*/
+    background-color: #efefef;
+
+}
+/*crazyKill头部*/
+.crazykill-header{
+    width: 100%;
+    height: 1.72rem;
+    background-color: #f9fafd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .45rem;
+    font-weight: bold;
+    padding: 0 .2rem;
+    position: fixed;
+    left:0;
+    top:0;
+    z-index: 200;
+}
+.crazykill-header >div:first-of-type{
+    height: 100%;
+    width: 2.25rem;
+    background: url(./../../image/zuoj.png) no-repeat left center;
+    background-size: 1rem .95rem;
+}
+.return-index a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.crazykill-header >div:last-of-type{
+    height: 100%;
+    width: 2.25rem;
+    background: url(./../../image/shuaxin.png) no-repeat right center;
+    background-size: 1rem .95rem;
+}
+/*crazyKill-main*/
+.crazyKill-main{
+    padding-top:1.72rem;
+}
+/*crazyKill-main-nav*/
+.crazyKill-main-nav{
+    width: 100%;
+    height: 4.37rem;
+    background: url(./../../image/miaosha-banner.jpg) no-repeat;
+    background-size: 100% 100%;
+
+}
+/*secondkill*/
+.secondkill{
+    width: 100%;
+    height: 2.625rem;
+    display: flex;
+    font-size: .375rem;
+    background-color: #272c2a;
+
+}
+.secondkill>div{
+    width:25%;
+    height: 100%;
+    text-align: center;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    color:white;
+
+}
+.secondkill>div p:first-child{
+    line-height: 1.1rem;
+    font-size: .4rem;
+}
+.secondkill>div p:last-child{
+    margin-top:.2rem;
+    height: .5rem;
+    /*width: 1rem;*/
+    margin: 0 auto;
+    background: url(./../../image/nullcircle.png) no-repeat -.75rem center;
+    background-size:100% .5rem;
+}
+/*secondkill-shop-time*/
+.secondkill-shop-time{
+    width: 100%;
+    height: 1.25rem;
+    background-color: #f2f2f2;
+    font-size: .375rem;
+    display:flex;
+    align-items: center;
+}
+.secondkill-shop-time >div:first-child{
+    height: 100%;
+    width: 3.8rem;
+    background-color: #fdd000;
+    text-align: center;
+}
+.secondkill-shop-time >div:first-child>p:first-of-type{
+    line-height: .7rem;
+}
+.secondkill-shop-time >div:first-child>p:nth-of-type(2){
+    font-size: .4rem;
+}
+
+.secondkill-shop-time >div:nth-of-type(2){
+    border-left:.4rem solid #fdd000;
+    border-top: 0.625rem solid  transparent;
+    border-bottom: 0.625rem solid  transparent;
+}
+.secondkill-shop-time >div:last-child{
+    height: .8rem;
+    width: 3.3rem;
+    color:white;
+    background-color:#272c2a;
+    text-align: center;
+    line-height: .8rem;
+    border-radius: .4rem;
+    margin-left: 2.2rem;
+}
+/*secondkill-shop-ul*/
+
+.secondkill-shop-ul{
+    width: 100%;
+}
+.secondkill-shop-li{
+    width: 100%;
+    height: 5.625rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    font-size: .45rem;
+    margin-bottom: .3rem;
+}
+.secondkill-shop-li >img{
+    width: 4.53rem;
+    height: 5.625rem;
+}
+.secondkill-shop-li >div{
+    border-left: 1px solid #efefef;
+    padding: .5rem .3rem;
+    width: 5.5rem;
+}
+.secondkill-shop-li >div >p:first-child{
+    white-space: pre;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: .4rem;
+}
+.secondkill-shop-li >div >p:nth-of-type(3){
+    color:#979697;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: .3rem;
+}
+.secondkill-shop-li >div >p:nth-of-type(3) >span{
+    color:#ff602c;
+    font-size: .8rem;
+    font-weight: bold;
+}
+.secondkill-shop-li >div >p:last-of-type{
+    width: 3.5rem;
+    height: 1.2rem;
+    border-radius: .6rem;
+    background-color: #aaa;
+    text-align: center;
+    line-height: 1rem;
+    color:white;
+}
+/*hot-sale-goods*/
+.hot-sale-goods{
+    width: 100%;
+    font-size: .45rem;
+}
+.title-h3{
+    text-align: center;
+    font-size: .55rem;
+    line-height: 1.5rem;
+    background: url(./../../image/underline.png) no-repeat center bottom;
+    background-size: contain;
+}
+
+.title-h3::before{
+    content:' ';
+    display: inline-block;
+    width: .2rem;
+    height: .6rem;
+    background-color: #ffd600;
+    margin-right: .2rem;
+}
+.hotsale-ul{
+    padding: .3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.hotsale-ul >li{
+    width: 49.5%;
+    background-color: white;
+    margin-bottom: .3rem;
+    padding-bottom: .2rem;
+    position: relative;
+
+}
+.hotsale-ul >li>img{
+    width: 100%;
+}
+.hotsale-ul >li>p:first-of-type{
+    border-top: 1px dashed #ccc;
+    padding-top: .1rem;
+}
+.hotsale-ul >li>p:nth-of-type(2){
+    line-height: 1rem;
+}
+.hotsale-ul >li>p:nth-of-type(3){
+    color:#929292;
+}
+.hotsale-ul >li>p:nth-of-type(3)>span:first-of-type{
+    color:#fc1400;
+}
+.hotsale-li p:last-of-type{
+    position: absolute;
+    right:.2rem;
+    bottom:.1rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background: url(./../../image/add.jpg) no-repeat center;
+    border: 1px solid #999;
+    background-size: 50% 50%;
+
+}
+.activityRuler >div{
+    padding: .5rem .5rem 1rem 1rem;
+    font-size: .4rem;
+    color:#595757;
+}
+.activityRuler >div >p{
+    line-height: .8rem;
+    text-indent: -1em;
+}
+.float-shopcar{
+    width: 5em;
+    height:5em;
+    border-radius: 50%;
+    position: fixed;
+    right:.2rem;
+    bottom:.5rem;
+    background: url(./../../image/gw-icon.png) no-repeat center;
+    background-size: 100% 100%;
+}

@@ -1,0 +1,99 @@
+@charset "UTF-8";
+.shopSerch{
+    width: 100%;
+}
+:root{
+    background-color: #efefef
+}
+/*头部*/
+.shopSerch-header{
+    width: 100%;
+    height: 1.72rem;
+    background-color: #f9fafd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: .45rem;
+    border: 1px solid #e0e0e0;
+    position:fixed;
+    top:0;
+    left:0;
+
+}
+.shopSerch-header >div:first-of-type{
+    width: 2.25em;
+    height: 100%;
+    background: url(./../../image/zuoj.png) no-repeat right center;
+    background-size: .9rem .9rem;
+    margin-left: .2rem;
+}
+.shopSerch-header >div:nth-of-type(2) form{
+    background-color:#f9fafd;
+
+    }
+
+.shopSerch-header >div input{
+    width: 6rem;
+    height: 1rem;
+    padding-left: .7rem;
+    outline: none;
+    border: 1px solid #e0e0e0;
+    border-radius:3px;
+    background: url(./../../image/serch.png) no-repeat  0rem center;
+    background-size: .7rem .7rem;
+
+}
+.shopSerch-header >div:last-of-type{
+    margin-right: .5rem;
+    color:#777;
+}
+.shopSerch-header >div:first-child a{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+/*主体部分*/
+.shopSerch-main{
+    width: 100%;
+    background-color: #efefef;
+}
+
+/*设置样式*/
+.serch-style:first-of-type{
+    padding-top: 2.72rem;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.serch-style>h6{
+    font-size:.3rem;
+    color:#888;
+    margin:0rem 0 .4rem .5rem;
+}
+.serch-style >ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.serch-style >ul:last-child{
+    margin-top: 0;
+}
+.serch-style >ul li{
+    font-size: .4rem ;
+    padding: .4rem .5rem;
+    background-color: white;
+    border-radius:1rem;;
+    margin-left: .8rem;
+    margin-bottom: .5rem;
+}
+/*清空历史*/
+.shopSerch-main >p{
+    width: 5.5rem;
+    height: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: .5rem;
+    margin-top: .7rem;
+    color:#aaa;
+    margin-left: 2.3rem;
+}
